@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  width: 400px;
+  font-size: 24px;
+  border: 3px solid;
+  border-radius: 10px;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+}
+.text {
+  font-weight: 500;
+  margin-bottom: 0px;
+  margin-left: 20px;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 0;
+}
+.btn {
+  display: flex;
+  width: 130px;
+  height: 50px;
+  margin: 12px auto 12px auto;
+  border: 2px solid;
+  border-radius: 4px;
+  background-color: rgb(222, 222, 212);
+  align-items: center;
+  justify-content: center;
+}
+.textContact {
+  display: flex;
+  flex-direction: column;
+  margin: 12px auto 12px 12px;
+  gap: 12px;
+}
+.icon {
+  width: 36px;
+  height: 36px;
+}
+.contactItem {
+  display: flex;
+}
